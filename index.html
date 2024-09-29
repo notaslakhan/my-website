@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- swiper link below -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <title>Аслахан Аслаханов</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="logo">
+          <img class="logo__img" src="img/logo.svg" alt="типо мой логотип, позже сделаю сам себе свой" title="типо временный логотип пока не сделаю свой">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li><a href="#" class="menu__item">портфолио</a></li>
+            <li><a href="#about-me" class="menu__item">обо мне</a></li>
+            <li><a href="#tech" class="menu__item">технологии</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="intro">
+      <div class="container">
+        <div class="intro__inner">
+          <div class="intro__text">
+            <h1 class="intro__heading">Аслахан Аслаханов</h1>
+            <p class="intro__paragraph">веб-разработчик графический дизайнер видеомонтажер</p>
+            <button type="button" class="intro__button">связаться</button>
+          </div>
+          <!-- swiper layout below -->
+           <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img class="swiper-image" src="img/me-in-black-jacket.jpg" alt="an image of a pretty handsome guy in a black jacket">
+              </div>
+              <div class="swiper-slide">
+                <img class="swiper-image" src="img/bathroom-pic.jpg" alt="an image of a pretty handsome guy">
+              </div>
+              <div class="swiper-slide">
+                <img class="swiper-image" src="img/me-under-tree.JPG" alt="an image of a pretty handsome guy">
+              </div>
+              <div class="swiper-slide">
+                <img class="swiper-image" src="img/me-with-laptop.jpg" alt="an image of a pretty handsome guy">
+              </div>
+              <div class="swiper-slide">
+                <img class="swiper-image" src="img/me-at-the-table.jpg" alt="an image of a pretty handsome guy">
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div> -->
+            <!-- <div class="swiper-button-next"></div> -->
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills">
+      <p id="tech" class="skills__heading">&#8249;мои хард скилы&#8260;&#8250;</p>
+      <div class="container">
+        <div class="skills__inner">
+          <div class="skill orange-hover">
+            <img class="skill__logo" src="img/html-icon.svg" alt="a pixelated HTML icon">
+            <p class="skill__desc">язык разметки</p>
+          </div>
+          <div class="skill blue-hover">
+            <img class="skill__logo" src="img/css-icon.svg" alt="a pixelated CSS icon">
+            <p class="skill__desc">язык стилизации</p>
+          </div>
+          <div class="skill yellow-hover">
+            <img class="skill__logo" src="img/js-icon.svg" alt="a pixelated CSS icon">
+            <p class="skill__desc">язык сценариев</p>
+          </div>
+          <div class="skill reddish-hover">
+            <img class="skill__logo" src="img/git-icon.svg" alt="a pixelated CSS icon">
+            <p class="skill__desc">система контроля версий</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-me">
+      <div class="container">
+        <p class="about-me__heading">обо мне</p>
+        <div class="about-me__inner">
+          <div id="about-me" class="about-me__photo">
+            <img class="about-me__img" src="img/me-dark-room.jpg" alt="">
+            <p class="about-me__paragraph">здесь я,в 2020 году, во времена карантина впервые изучаю азы видеомонтажа в Adobe Premiere Pro</p>
+          </div>
+          <!-- <div class="about-me-desc">
+            <p class="about-me-desc__paragraph">во времена карантина от нечего делать сидел в фотошопе и премьер про</p>
+          </div> -->
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
